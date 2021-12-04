@@ -7,6 +7,7 @@
 - 👉 如果你不知道自己要从哪开始、要学什么、有什么结果，请看 [阅读指南](https://bugstack.cn/md/other/guide-to-reading.html) 这是一个码农研发人员提升自身技术栈广度和深度的经验之路，也是小傅哥的亲身学习经历汇总！
 - 👉 如果你是刚入行、在外包、跨语言学习、想跳槽大厂、缺少学习动力等，可以阅读小傅哥的成长故事，这个系列包括了我的个人在外包到大厂的成长、跳槽的过程、互联网的学习经历 Go -> [关于小傅哥](https://bugstack.cn/md/about/me/2020-08-25-13%E5%B9%B4%E6%AF%95%E4%B8%9A%EF%BC%8C%E7%94%A8%E4%B8%A4%E5%B9%B4%E6%97%B6%E9%97%B4%E4%BB%8E%E5%A4%96%E5%8C%85%E8%B5%B0%E8%BF%9B%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82.html)
 - 👉 推荐 [在线阅读 bugstack.cn](https://bugstack.cn) (Github 访问速度比较慢可能会导致部分图片无法刷新出来)
+- 👉 **【重要】** 源码下载指引：小傅哥博客【设计模式、Spring、字节码、插件、中间件等】涉及到的全部源码地址：[Go -> 源码索引](https://github.com/fuzhengwei/CodeGuide#1-%E6%BA%90%E7%A0%81)
 - **云服务器**：[60元1年，180元3年，新人服务器](https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=11388&recordId=1033318&userCode=is4kfbdt) 云服务学习视频课程：[📺B站 `小傅哥の码场`](https://space.bilibili.com/15637440/channel/seriesdetail?sid=479958)
 
 <br/>
@@ -85,7 +86,7 @@
     - [9.3 关于工作](https://github.com/fuzhengwei/CodeGuide#93-%E5%85%B3%E4%BA%8E%E5%B7%A5%E4%BD%9C---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 12. [转载分享](https://github.com/fuzhengwei/CodeGuide#10-%E8%BD%AC%E8%BD%BD%E5%88%86%E4%BA%AB) 
 13. [参与贡献](https://github.com/fuzhengwei/CodeGuide#11-%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE) 🍁 `留下你的学习的Issue、PR，与同好同行、共同成长`
-14. [与我联系](https://github.com/fuzhengwei/CodeGuide#12-%E4%B8%8E%E6%88%91%E8%81%94%E7%B3%BB)
+14. [与我联系](https://github.com/fuzhengwei/CodeGuide#12-%E4%B8%8E%E6%88%91%E8%81%94%E7%B3%BB) 🐾 `加入拥有技术初心纯粹的交流群`
 15. [:rose: 致谢](https://github.com/fuzhengwei/CodeGuide#13-%E8%87%B4%E8%B0%A2)   
 
 ## 1. 源码
@@ -629,29 +630,60 @@
 
 </details>
 
-### 8.3 Lottery 分布式抽奖系统 - 👉[**在线阅读**](https://bugstack.cn/md/project/lottery/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html)
+### 8.3 Lottery 分布式抽奖系统 - 👉[**在线阅读**](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html)
 
-- [第01节：开篇介绍](https://bugstack.cn/md/project/lottery/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html)
-- [第02节：搭建DDD四层架构](https://bugstack.cn/md/project/lottery/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E6%90%AD%E5%BB%BADDD%E5%9B%9B%E5%B1%82%E6%9E%B6%E6%9E%84.html)
-- [第03节：跑通广播模式RPC过程调用](https://bugstack.cn/md/project/lottery/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E8%B7%91%E9%80%9A%E5%B9%BF%E6%92%AD%E6%A8%A1%E5%BC%8FRPC%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8.html)
-- [第04节：抽奖活动策略库表设计](https://bugstack.cn/md/project/lottery/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E6%8A%BD%E5%A5%96%E6%B4%BB%E5%8A%A8%E7%AD%96%E7%95%A5%E5%BA%93%E8%A1%A8%E8%AE%BE%E8%AE%A1.html)
-- [第05节：抽奖策略领域模块开发](https://bugstack.cn/md/project/lottery/%E7%AC%AC05%E8%8A%82%EF%BC%9A%E6%8A%BD%E5%A5%96%E7%AD%96%E7%95%A5%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91.html)
+- 第 1 部分 大厂规范
+    
+    - [第01节：大厂码农开发基础](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%A4%A7%E5%8E%82%E7%A0%81%E5%86%9C%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80.md)
+    - [第02节：需求怎么来的](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E9%9C%80%E6%B1%82%E6%80%8E%E4%B9%88%E6%9D%A5%E7%9A%84.md)
+    - [第03节：系统架构设计](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1.md)
+    - [第04节：进入开发阶段](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E8%BF%9B%E5%85%A5%E5%BC%80%E5%8F%91%E9%98%B6%E6%AE%B5.md)
+    - [第05节：系统上线维护](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC05%E8%8A%82%EF%BC%9A%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%BA%BF%E7%BB%B4%E6%8A%A4.md)
+    
+- 第 2 部分 领域开发
+
+    - [第01节：开篇介绍](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html)
+    - [第02节：搭建DDD四层架构](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E6%90%AD%E5%BB%BADDD%E5%9B%9B%E5%B1%82%E6%9E%B6%E6%9E%84.html)
+    - [第03节：跑通广播模式RPC过程调用](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E8%B7%91%E9%80%9A%E5%B9%BF%E6%92%AD%E6%A8%A1%E5%BC%8FRPC%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8.html)
+    - [第04节：抽奖活动策略库表设计](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E6%8A%BD%E5%A5%96%E6%B4%BB%E5%8A%A8%E7%AD%96%E7%95%A5%E5%BA%93%E8%A1%A8%E8%AE%BE%E8%AE%A1.html)
+    - [第05节：抽奖策略领域模块开发](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC05%E8%8A%82%EF%BC%9A%E6%8A%BD%E5%A5%96%E7%AD%96%E7%95%A5%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91.html)
+    - [第06节：模板模式处理抽奖流程](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC06%E8%8A%82%EF%BC%9A%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F%E5%A4%84%E7%90%86%E6%8A%BD%E5%A5%96%E6%B5%81%E7%A8%8B.html)
+    - [第07节：简单工厂搭建发奖领域](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC07%E8%8A%82%EF%BC%9A%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%90%AD%E5%BB%BA%E5%8F%91%E5%A5%96%E9%A2%86%E5%9F%9F.html)
+    - [第08节：活动领域的配置与状态](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC08%E8%8A%82%EF%BC%9A%E6%B4%BB%E5%8A%A8%E9%A2%86%E5%9F%9F%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%8A%B6%E6%80%81.html)
+    - [第09节：ID生成策略领域开发](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC09%E8%8A%82%EF%BC%9AID%E7%94%9F%E6%88%90%E7%AD%96%E7%95%A5%E9%A2%86%E5%9F%9F%E5%BC%80%E5%8F%91.html)
+    - [第10节：实现和使用分库分表](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC10%E8%8A%82%EF%BC%9A%E5%AE%9E%E7%8E%B0%E5%92%8C%E4%BD%BF%E7%94%A8%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8.html)
+    - [第11节：声明事务领取活动领域开发](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC11%E8%8A%82%EF%BC%9A%E5%A3%B0%E6%98%8E%E4%BA%8B%E5%8A%A1%E9%A2%86%E5%8F%96%E6%B4%BB%E5%8A%A8%E9%A2%86%E5%9F%9F%E5%BC%80%E5%8F%91.html)
+    - [第12节：在应用层编排抽奖过程](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC12%E8%8A%82%EF%BC%9A%E5%9C%A8%E5%BA%94%E7%94%A8%E5%B1%82%E7%BC%96%E6%8E%92%E6%8A%BD%E5%A5%96%E8%BF%87%E7%A8%8B.html)
+    - [第13节：规则引擎量化人群参与活动](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC13%E8%8A%82%EF%BC%9A%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E%E9%87%8F%E5%8C%96%E4%BA%BA%E7%BE%A4%E5%8F%82%E4%B8%8E%E6%B4%BB%E5%8A%A8.html)
+    - [第14节：门面接口封装和对象转换](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC14%E8%8A%82%EF%BC%9A%E9%97%A8%E9%9D%A2%E6%8E%A5%E5%8F%A3%E5%B0%81%E8%A3%85%E5%92%8C%E5%AF%B9%E8%B1%A1%E8%BD%AC%E6%8D%A2.html)
+    - [第15节：搭建MQ消息组件Kafka服务环境](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC15%E8%8A%82%EF%BC%9A%E6%90%AD%E5%BB%BAMQ%E6%B6%88%E6%81%AF%E7%BB%84%E4%BB%B6Kafka%E6%9C%8D%E5%8A%A1%E7%8E%AF%E5%A2%83.html)
+    - [第16节：使用MQ解耦抽奖发货流程](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC16%E8%8A%82%EF%BC%9A%E4%BD%BF%E7%94%A8MQ%E8%A7%A3%E8%80%A6%E6%8A%BD%E5%A5%96%E5%8F%91%E8%B4%A7%E6%B5%81%E7%A8%8B.html)
+    - [第17节：引入xxl-job处理活动状态扫描](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC17%E8%8A%82%EF%BC%9A%E5%BC%95%E5%85%A5xxl-job%E5%A4%84%E7%90%86%E6%B4%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%89%AB%E6%8F%8F.html)
+    - [第18节：扫描库表补偿发货单MQ消息](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC18%E8%8A%82%EF%BC%9A%E6%89%AB%E6%8F%8F%E5%BA%93%E8%A1%A8%E8%A1%A5%E5%81%BF%E5%8F%91%E8%B4%A7%E5%8D%95MQ%E6%B6%88%E6%81%AF.html)
+    - [第19节：设计滑动库存分布式锁处理活动秒杀](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-2/%E7%AC%AC19%E8%8A%82%EF%BC%9A%E8%AE%BE%E8%AE%A1%E6%BB%91%E5%8A%A8%E5%BA%93%E5%AD%98%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E5%A4%84%E7%90%86%E6%B4%BB%E5%8A%A8%E7%A7%92%E6%9D%80.md)
+
+- 第 3 部分 运营后台
+
+    - [第01节：UI工程搭建](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC01%E8%8A%82%EF%BC%9AUI%E5%B7%A5%E7%A8%8B%E6%90%AD%E5%BB%BA.md)
+    - [第02节：活动配置和展示](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E6%B4%BB%E5%8A%A8%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B1%95%E7%A4%BA.md)
+    - [第03节：用户抽奖数据展示](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E7%94%A8%E6%88%B7%E6%8A%BD%E5%A5%96%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md)
 
 <details><summary><a>👉显示更多</a></summary></br> 
 
-- [第06节：模板模式处理抽奖流程](https://bugstack.cn/md/project/lottery/%E7%AC%AC06%E8%8A%82%EF%BC%9A%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F%E5%A4%84%E7%90%86%E6%8A%BD%E5%A5%96%E6%B5%81%E7%A8%8B.html)
-- [第07节：简单工厂搭建发奖领域](https://bugstack.cn/md/project/lottery/%E7%AC%AC07%E8%8A%82%EF%BC%9A%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%90%AD%E5%BB%BA%E5%8F%91%E5%A5%96%E9%A2%86%E5%9F%9F.html)
-- [第08节：活动领域的配置与状态](https://bugstack.cn/md/project/lottery/%E7%AC%AC08%E8%8A%82%EF%BC%9A%E6%B4%BB%E5%8A%A8%E9%A2%86%E5%9F%9F%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%8A%B6%E6%80%81.html)
-- [第09节：ID生成策略领域开发](https://bugstack.cn/md/project/lottery/%E7%AC%AC09%E8%8A%82%EF%BC%9AID%E7%94%9F%E6%88%90%E7%AD%96%E7%95%A5%E9%A2%86%E5%9F%9F%E5%BC%80%E5%8F%91.html)
-- [第10节：实现和使用分库分表](https://bugstack.cn/md/project/lottery/%E7%AC%AC10%E8%8A%82%EF%BC%9A%E5%AE%9E%E7%8E%B0%E5%92%8C%E4%BD%BF%E7%94%A8%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8.html)
-- [第11节：声明事务领取活动领域开发](https://bugstack.cn/md/project/lottery/%E7%AC%AC11%E8%8A%82%EF%BC%9A%E5%A3%B0%E6%98%8E%E4%BA%8B%E5%8A%A1%E9%A2%86%E5%8F%96%E6%B4%BB%E5%8A%A8%E9%A2%86%E5%9F%9F%E5%BC%80%E5%8F%91.html)
-- [第12节：在应用层编排抽奖过程](https://bugstack.cn/md/project/lottery/%E7%AC%AC12%E8%8A%82%EF%BC%9A%E5%9C%A8%E5%BA%94%E7%94%A8%E5%B1%82%E7%BC%96%E6%8E%92%E6%8A%BD%E5%A5%96%E8%BF%87%E7%A8%8B.html)
-- [第13节：规则引擎量化人群参与活动](https://bugstack.cn/md/project/lottery/%E7%AC%AC13%E8%8A%82%EF%BC%9A%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E%E9%87%8F%E5%8C%96%E4%BA%BA%E7%BE%A4%E5%8F%82%E4%B8%8E%E6%B4%BB%E5%8A%A8.html)
-- [第14节：门面接口封装和对象转换](https://bugstack.cn/md/project/lottery/%E7%AC%AC14%E8%8A%82%EF%BC%9A%E9%97%A8%E9%9D%A2%E6%8E%A5%E5%8F%A3%E5%B0%81%E8%A3%85%E5%92%8C%E5%AF%B9%E8%B1%A1%E8%BD%AC%E6%8D%A2.html)
-- [第15节：搭建MQ消息组件Kafka服务环境](https://bugstack.cn/md/project/lottery/%E7%AC%AC15%E8%8A%82%EF%BC%9A%E6%90%AD%E5%BB%BAMQ%E6%B6%88%E6%81%AF%E7%BB%84%E4%BB%B6Kafka%E6%9C%8D%E5%8A%A1%E7%8E%AF%E5%A2%83.html)
-- [第16节：使用MQ解耦抽奖发货流程](https://bugstack.cn/md/project/lottery/%E7%AC%AC16%E8%8A%82%EF%BC%9A%E4%BD%BF%E7%94%A8MQ%E8%A7%A3%E8%80%A6%E6%8A%BD%E5%A5%96%E5%8F%91%E8%B4%A7%E6%B5%81%E7%A8%8B.html)
-- [第17节：引入xxl-job处理活动状态扫描](https://bugstack.cn/md/project/lottery/%E7%AC%AC17%E8%8A%82%EF%BC%9A%E5%BC%95%E5%85%A5xxl-job%E5%A4%84%E7%90%86%E6%B4%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%89%AB%E6%8F%8F.html)
-- [第18节：扫描库表补偿发货单MQ消息](https://bugstack.cn/md/project/lottery/%E7%AC%AC18%E8%8A%82%EF%BC%9A%E6%89%AB%E6%8F%8F%E5%BA%93%E8%A1%A8%E8%A1%A5%E5%81%BF%E5%8F%91%E8%B4%A7%E5%8D%95MQ%E6%B6%88%E6%81%AF.html)
+- 第 4 部分 应用场景
+
+    - [第01节：vue H5 大转盘抽奖](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-4/%E7%AC%AC01%E8%8A%82%EF%BC%9Avue%20H5%20%E5%A4%A7%E8%BD%AC%E7%9B%98%E6%8A%BD%E5%A5%96.md)
+    - [第02节：微信公众号回复参与抽奖](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-4/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%9B%9E%E5%A4%8D%E5%8F%82%E4%B8%8E%E6%8A%BD%E5%A5%96.md)
+
+- 第 5 部分 系统运维
+
+    - [第01节：在云服务器部署 Docker](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%9C%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%20Docker.md)
+    - [第02节：安装环境 Redis](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%20Redis.md)
+    - [第03节：安装环境 Kafka](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%20Kafka.md)
+    - [第04节：安装环境 xxl-job](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%20xxl-job.md)
+    - [第05节：ELK](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC05%E8%8A%82%EF%BC%9AELK.md)
+    - [第06节：全链路监控](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC06%E8%8A%82%EF%BC%9A%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7.md)
+    - [第07节：Mysql binlog 同步ES](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC07%E8%8A%82%EF%BC%9AMysql%20binlog%20%E5%90%8C%E6%AD%A5ES.md)
 
 </details>
 
@@ -735,6 +767,7 @@
 - [BATJTMD，大厂招聘，都招什么样Java程序员？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/job/2020-11-15-BATJTMD%EF%BC%8C%E5%A4%A7%E5%8E%82%E6%8B%9B%E8%81%98%EF%BC%8C%E9%83%BD%E6%8B%9B%E4%BB%80%E4%B9%88%E6%A0%B7Java%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%9F.md)
 - [工作3年，看啥资料能月薪30K？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/job/2020-12-20-%E5%B7%A5%E4%BD%9C3%E5%B9%B4%EF%BC%8C%E7%9C%8B%E5%95%A5%E8%B5%84%E6%96%99%E8%83%BD%E6%9C%88%E8%96%AA30K%EF%BC%9F.md)
 - [半年筛选了400+份简历，告诉你怎么写会被撩](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/job/2021-02-24-%E5%8D%8A%E5%B9%B4%E7%AD%9B%E9%80%89%E4%BA%86400%2B%E4%BB%BD%E7%AE%80%E5%8E%86%EF%BC%8C%E5%91%8A%E8%AF%89%E4%BD%A0%E6%80%8E%E4%B9%88%E5%86%99%E4%BC%9A%E8%A2%AB%E6%92%A9.md)
+- [刚提测就改需求，我是渣男吗？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/job/2021-12-02-%E5%88%9A%E6%8F%90%E6%B5%8B%E5%B0%B1%E6%94%B9%E9%9C%80%E6%B1%82%EF%BC%8C%E6%88%91%E6%98%AF%E6%B8%A3%E7%94%B7%E5%90%97.md)
 
 </details>
 
