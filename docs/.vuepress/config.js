@@ -811,6 +811,7 @@ function genBarAssembly() {
                 "idea-plugin/2021-11-03-《IntelliJ IDEA 插件开发》第二节：配置窗体和侧边栏窗体的使用.md",
                 "idea-plugin/2021-11-18-《IntelliJ IDEA 插件开发》第三节：开发工具栏和Tab页，展示股票行情和K线.md",
                 "idea-plugin/2021-11-24-《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架.md",
+                "idea-plugin/2021-12-08-《IntelliJ IDEA 插件开发》第五节：IDEA工程右键菜单，自动生成ORM代码.md",
             ]
         }
     ]
@@ -1288,12 +1289,13 @@ function getBarProjectLottery() {
             sidebarDepth: 0,
             children: [
                 "Part-5/第01节：在云服务器部署 Docker.md",
-                "Part-5/第02节：安装环境 Redis.md",
-                "Part-5/第03节：安装环境 Kafka.md",
-                "Part-5/第04节：安装环境 xxl-job.md",
-                "Part-5/第05节：ELK.md",
-                "Part-5/第06节：全链路监控.md",
-                "Part-5/第07节：Mysql binlog 同步ES.md",
+                "Part-5/第02节：部署环境 Redis.md",
+                "Part-5/第03节：部署环境 Kafka.md",
+                "Part-5/第04节：部署环境 Mysql.md",
+                "Part-5/第05节：部署环境 xxl-job.md",
+                "Part-5/第06节：ELK.md",
+                "Part-5/第07节：全链路监控.md",
+                "Part-5/第08节：Mysql binlog 同步ES.md",
             ]
         }
     ]

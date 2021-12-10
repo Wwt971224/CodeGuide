@@ -1,9 +1,9 @@
 ---
-title: 第04节：安装环境 xxl-job
+title: 第08节：Mysql binlog 同步ES
 pay: https://t.zsxq.com/jUbmeE2
 ---
 
-# 第04节：安装环境 xxl-job
+# 第08节：Mysql binlog 同步ES
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
