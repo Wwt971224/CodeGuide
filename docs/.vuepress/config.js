@@ -812,6 +812,7 @@ function genBarAssembly() {
                 "idea-plugin/2021-11-18-《IntelliJ IDEA 插件开发》第三节：开发工具栏和Tab页，展示股票行情和K线.md",
                 "idea-plugin/2021-11-24-《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架.md",
                 "idea-plugin/2021-12-08-《IntelliJ IDEA 插件开发》第五节：IDEA工程右键菜单，自动生成ORM代码.md",
+                "idea-plugin/2021-12-14-《IntelliJ IDEA 插件开发》第六节：以织入代码的方式，自动处理vo2dto.md",
             ]
         }
     ]
@@ -1270,7 +1271,7 @@ function getBarProjectLottery() {
             sidebarDepth: 0,
             children: [
                 "Part-3/第01节：UI工程搭建.md",
-                "Part-3/第02节：活动配置和展示.md",
+                "Part-3/第02节：活动列表数据展示.md",
                 "Part-3/第03节：用户抽奖数据展示.md",
             ]
         },
@@ -1279,8 +1280,8 @@ function getBarProjectLottery() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "Part-4/第01节：vue H5 大转盘抽奖.md",
-                "Part-4/第02节：微信公众号回复参与抽奖.md",
+                "Part-4/第01节：搭建微信公众号网关服务.md",
+                "Part-4/第02节：vue H5 大转盘抽奖.md",
             ]
         },
         {
@@ -1293,9 +1294,10 @@ function getBarProjectLottery() {
                 "Part-5/第03节：部署环境 Kafka.md",
                 "Part-5/第04节：部署环境 Mysql.md",
                 "Part-5/第05节：部署环境 xxl-job.md",
-                "Part-5/第06节：ELK.md",
-                "Part-5/第07节：全链路监控.md",
-                "Part-5/第08节：Mysql binlog 同步ES.md",
+                "Part-5/第06节：部署环境 nacos.md",
+                "Part-5/第07节：ELK.md",
+                "Part-5/第08节：全链路监控.md",
+                "Part-5/第09节：Mysql binlog 同步ES.md",
             ]
         }
     ]

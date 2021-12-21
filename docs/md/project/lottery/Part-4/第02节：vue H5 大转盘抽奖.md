@@ -1,9 +1,9 @@
 ---
-title: 第02节：活动配置和展示
+title: 第02节：vue H5 大转盘抽奖
 pay: https://t.zsxq.com/jUbmeE2
 ---
 
-# 第02节：活动配置和展示
+# 第02节：vue H5 大转盘抽奖
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
