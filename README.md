@@ -8,7 +8,7 @@
 - 👉 如果你是刚入行、在外包、跨语言学习、想跳槽大厂、缺少学习动力等，可以阅读小傅哥的成长故事，这个系列包括了我的个人在外包到大厂的成长、跳槽的过程、互联网的学习经历 Go -> [关于小傅哥](https://bugstack.cn/md/about/me/2020-08-25-13%E5%B9%B4%E6%AF%95%E4%B8%9A%EF%BC%8C%E7%94%A8%E4%B8%A4%E5%B9%B4%E6%97%B6%E9%97%B4%E4%BB%8E%E5%A4%96%E5%8C%85%E8%B5%B0%E8%BF%9B%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82.html)
 - 👉 推荐 [在线阅读 bugstack.cn](https://bugstack.cn) (Github 访问速度比较慢可能会导致部分图片无法刷新出来)
 - 👉 **【重要】** 源码下载指引：小傅哥博客【设计模式、Spring、字节码、插件、中间件等】涉及到的全部源码地址：[Go -> 源码索引](https://github.com/fuzhengwei/CodeGuide#1-%E6%BA%90%E7%A0%81)
-- **云服务器**：[60元1年，180元3年，新人服务器](https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=11388&recordId=1033318&userCode=is4kfbdt) 云服务学习视频课程：[📺B站 `小傅哥の码场`](https://space.bilibili.com/15637440/channel/seriesdetail?sid=479958)
+- **云服务器**：[38元1年，1核2G 练手服务器](https://www.aliyun.com/minisite/goods?userCode=is4kfbdt) 云服务学习视频课程：[📺B站 `小傅哥の码场`](https://space.bilibili.com/15637440/channel/seriesdetail?sid=479958)
 
 <br/>
 <div align="center">
@@ -338,6 +338,8 @@
     - [不重复造轮子只是骗小孩子的，教你手撸 SpringBoot 脚手架！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/framework/scheme/2021-03-14-%E4%B8%8D%E9%87%8D%E5%A4%8D%E9%80%A0%E8%BD%AE%E5%AD%90%E5%8F%AA%E6%98%AF%E9%AA%97%E5%B0%8F%E5%AD%A9%E5%AD%90%E7%9A%84%EF%BC%8C%E6%95%99%E4%BD%A0%E6%89%8B%E6%92%B8%20SpringBoot%20%E8%84%9A%E6%89%8B%E6%9E%B6%EF%BC%81.md)
     - [刚火了的中台转头就拆，一大波公司放不下又拿不起来！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/framework/scheme/2021-03-24-%E5%88%9A%E7%81%AB%E4%BA%86%E7%9A%84%E4%B8%AD%E5%8F%B0%E8%BD%AC%E5%A4%B4%E5%B0%B1%E6%8B%86%EF%BC%8C%E4%B8%80%E5%A4%A7%E6%B3%A2%E5%85%AC%E5%8F%B8%E6%94%BE%E4%B8%8D%E4%B8%8B%E5%8F%88%E6%8B%BF%E4%B8%8D%E8%B5%B7%E6%9D%A5%EF%BC%81.md)
     - [调研字节码插桩技术，用于系统监控设计和实现](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/framework/scheme/2021-07-19-%E8%B0%83%E7%A0%94%E5%AD%97%E8%8A%82%E7%A0%81%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF%EF%BC%8C%E7%94%A8%E4%BA%8E%E7%B3%BB%E7%BB%9F%E7%9B%91%E6%8E%A7%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%AE%9E%E7%8E%B0.md)
+    - [基于库表分段扫描和数据Redis预热，优化分布式延迟任务触达时效性](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/framework/scheme/2022-02-14-%E5%9F%BA%E4%BA%8E%E5%BA%93%E8%A1%A8%E5%88%86%E6%AE%B5%E6%89%AB%E6%8F%8F%E5%92%8C%E6%95%B0%E6%8D%AERedis%E9%A2%84%E7%83%AD%EF%BC%8C%E4%BC%98%E5%8C%96%E5%88%86%E5%B8%83%E5%BC%8F%E5%BB%B6%E8%BF%9F%E4%BB%BB%E5%8A%A1%E8%A7%A6%E8%BE%BE%E6%97%B6%E6%95%88%E6%80%A7.md)
+    - [怎么说服领导，能让我用DDD架构肝项目？](https://github.com/fuzhengwei/CodeGuide/blob/85f9a7e21065a5c3b2345f94734e903eb58d3b08/docs/md/develop/framework/scheme/2022-02-21-%E6%80%8E%E4%B9%88%E8%AF%B4%E6%9C%8D%E9%A2%86%E5%AF%BC%EF%BC%8C%E8%83%BD%E8%AE%A9%E6%88%91%E7%94%A8DDD%E6%9E%B6%E6%9E%84.md)
 
 </details>
 
@@ -353,6 +355,7 @@
 - [还重构？就你那代码只能铲了重写！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2021-09-15-%E8%BF%98%E9%87%8D%E6%9E%84%EF%BC%9F%E5%B0%B1%E4%BD%A0%E9%82%A3%E4%BB%A3%E7%A0%81%E5%8F%AA%E8%83%BD%E9%93%B2%E4%BA%86%E9%87%8D%E5%86%99%EF%BC%81.md)
 - [p3c 插件，是怎么检查出你那屎山的代码？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2021-09-27-p3c%20%E6%8F%92%E4%BB%B6%EF%BC%8C%E6%98%AF%E6%80%8E%E4%B9%88%E6%A3%80%E6%9F%A5%E5%87%BA%E4%BD%A0%E9%82%A3%E5%B1%8E%E5%B1%B1%E7%9A%84%E4%BB%A3%E7%A0%81%EF%BC%9F.md)
 - [12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2021-10-10-12%E7%A7%8D%20vo2dto%20%E6%96%B9%E6%B3%95%EF%BC%8C%E5%B0%B1%20BeanUtils.copyProperties%20%E5%8E%8B%E6%B5%8B%E6%9C%80%E6%8B%89%E8%83%AF.md)
+- [架构师深夜把玩 ApiPost，分享细腻的体验！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2022-03-06-ApiPost.md)
 
 </details>
 
@@ -702,6 +705,8 @@
     - [第04节：部署环境 Mysql](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20Mysql.md)
     - [第05节：部署环境 xxl-job](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC05%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20xxl-job.md)
     - [第06节：部署环境 nacos](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC06%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20nacos.md)
+    - [第07节：部署环境 Elasticsearch、Kibana](#)
+    - [第08节：部署环境 canal 同步数据到 ES](#)
     
 </details>
 
@@ -720,6 +725,7 @@
 - [Cloudreve 自建云盘实践，我说了没人能限得了我的容量和速度！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-04-11-Cloudreve%20%E8%87%AA%E5%BB%BA%E4%BA%91%E7%9B%98%E5%AE%9E%E8%B7%B5%EF%BC%8C%E6%88%91%E8%AF%B4%E4%BA%86%E6%B2%A1%E4%BA%BA%E8%83%BD%E9%99%90%E5%BE%97%E4%BA%86%E6%88%91%E7%9A%84%E5%AE%B9%E9%87%8F%E5%92%8C%E9%80%9F%E5%BA%A6%EF%BC%81.md)
 - [【经验分享】码农使用云服务学习，部环境、开端口、配域名、弄SSL、搭博客](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-06-04-%E3%80%90%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%E3%80%91%E7%A0%81%E5%86%9C%E4%BD%BF%E7%94%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%AD%A6%E4%B9%A0%EF%BC%8C%E9%83%A8%E7%8E%AF%E5%A2%83%E3%80%81%E5%BC%80%E7%AB%AF%E5%8F%A3%E3%80%81%E9%85%8D%E5%9F%9F%E5%90%8D%E3%80%81%E5%BC%84SSL%E3%80%81%E6%90%AD%E5%8D%9A%E5%AE%A2%EF%BC%81.md) 
 - [关于怎么使用 webhooks 自动部署博客，详细教程文档！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-11-07-%E5%85%B3%E4%BA%8E%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8%20webhooks%20%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%EF%BC%8C%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B%E6%96%87%E6%A1%A3%EF%BC%81.md)
+- [教小白使用 docsify，搭建一个贼简单的所见即所得博客！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2022-03-04-%E6%95%99%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8%20docsify%EF%BC%8C%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%B4%BC%E7%AE%80%E5%8D%95%E7%9A%84%E6%89%80%E8%A7%81%E5%8D%B3%E6%89%80%E5%BE%97%E5%8D%9A%E5%AE%A2%EF%BC%81.md)
 
 </details>
 
@@ -773,6 +779,7 @@
 - [数学，离一个程序员有多近？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2020-12-20-%E5%B7%A5%E4%BD%9C3%E5%B9%B4%EF%BC%8C%E7%9C%8B%E5%95%A5%E8%B5%84%E6%96%99%E8%83%BD%E6%9C%88%E8%96%AA30K%EF%BC%9F.md)
 - [大学毕业要写多少行代码，才能不用花钱培训就找到一份开发工作？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2020-12-20-%E5%B7%A5%E4%BD%9C3%E5%B9%B4%EF%BC%8C%E7%9C%8B%E5%95%A5%E8%B5%84%E6%96%99%E8%83%BD%E6%9C%88%E8%96%AA30K%EF%BC%9F.md)
 - [2021版，开发者学习路线图分享](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2021-09-09-2021%E7%89%88%EF%BC%8C%E5%BC%80%E5%8F%91%E8%80%85%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%E5%88%86%E4%BA%AB.md)
+- [你上车，我就把你带成卷王！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2022-02-07-%E4%BD%A0%E4%B8%8A%E8%BD%A6%EF%BC%8C%E6%88%91%E5%B0%B1%E6%8A%8A%E4%BD%A0%E5%B8%A6%E6%88%90%E5%8D%B7%E7%8E%8B%EF%BC%81.md)
 
 </details>
 

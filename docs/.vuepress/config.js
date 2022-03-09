@@ -251,7 +251,7 @@ module.exports = {
                                     },
                                     {
                                         text: '架构方案',
-                                        link: '/md/develop/framework/scheme/2022-01-23-《IntelliJ IDEA 插件开发》第10节：基于字节码插桩采集数据，实现代码交付质量自动分析.md'
+                                        link: '/md/develop/framework/scheme/2021-02-04-基于IDEA插件开发和字节码插桩技术，实现研发交付质量自动分析.md'
                                     }
                                 ]
                             },
@@ -728,6 +728,7 @@ function genBarDevOPS() {
                 "2021-06-04-【经验分享】码农使用云服务学习，部环境、开端口、配域名、弄SSL、搭博客！.md",
                 "2021-11-01-迁移vuepress博客踩坑经历.md",
                 "2021-11-07-关于怎么使用 webhooks 自动部署博客，详细教程文档！.md",
+                "2022-03-04-教小白使用 docsify，搭建一个贼简单的所见即所得博客！.md",
             ]
         }
     ]
@@ -766,7 +767,9 @@ function genBarDevelopFramework() {
                 "scheme/2021-03-04-笔记整理：技术架构涵盖内容和演变过程总结.md",
                 "scheme/2021-03-14-不重复造轮子只是骗小孩子的，教你手撸 SpringBoot 脚手架！.md",
                 "scheme/2021-03-24-刚火了的中台转头就拆，一大波公司放不下又拿不起来！.md",
-                "scheme/2021-07-19-调研字节码插桩技术，用于系统监控设计和实现.md"
+                "scheme/2021-07-19-调研字节码插桩技术，用于系统监控设计和实现.md",
+                "scheme/2022-02-14-基于库表分段扫描和数据Redis预热，优化分布式延迟任务触达时效性.md",
+                "scheme/2022-02-21-怎么说服领导，能让我用DDD架构.md",
             ]
         }
     ]
@@ -786,7 +789,8 @@ function genBarDevelopStandard() {
                 "2021-01-10-握草，这些研发事故30我都干过！.md",
                 "2021-09-15-还重构？就你那代码只能铲了重写！.md",
                 "2021-09-27-p3c 插件，是怎么检查出你那屎山的代码？.md",
-                "2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md"
+                "2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md",
+                "2022-03-06-ApiPost.md",
             ]
         }
     ]
@@ -1340,6 +1344,8 @@ function getBarProjectLottery() {
                 "Part-5/第04节：部署环境 Mysql.md",
                 "Part-5/第05节：部署环境 xxl-job.md",
                 "Part-5/第06节：部署环境 nacos.md",
+                "Part-5/第07节：部署环境 Elasticsearch、Kibana.md",
+                "Part-5/第08节：部署环境 canal.md",
             ]
         }
     ]
@@ -1386,7 +1392,8 @@ function genBarAbout() {
                 "study/2020-12-20-工作3年，看啥资料能月薪30K？.md",
                 "study/2021-01-17-数学，离一个程序员有多近？.md",
                 "study/2021-05-09-大学毕业要写多少行代码，才能不用花钱培训就找到一份开发工作？.md",
-                "study/2021-09-09-2021版，开发者学习路线图分享.md"
+                "study/2021-09-09-2021版，开发者学习路线图分享.md",
+                "study/2022-02-07-你上车，我就把你带成卷王！.md"
             ]
         },
         {
