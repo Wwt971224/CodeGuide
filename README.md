@@ -55,8 +55,8 @@
     - [2.2 用Java实现JVM](https://github.com/fuzhengwei/CodeGuide#22-%E7%94%A8java%E5%AE%9E%E7%8E%B0jvm---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [2.3 基础技术](https://github.com/fuzhengwei/CodeGuide#23-%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 3. [Spring](https://github.com/fuzhengwei/CodeGuide#3-spring)
-    - [3.1 Spring 手撸专栏](https://github.com/fuzhengwei/CodeGuide#31-spring-%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-    - [3.2 Spring Cloud](https://github.com/fuzhengwei/CodeGuide#32-spring-cloud---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [3.1 Spring 手撸专栏](https://github.com/fuzhengwei/CodeGuide#31-spring-%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [3.2 Spring Cloud](https://github.com/fuzhengwei/CodeGuide#32-spring-cloud----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [3.3 源码分析(Mybatis、Quartz)](https://github.com/fuzhengwei/CodeGuide#33-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90mybatisquartz---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 4. [面向对象](https://github.com/fuzhengwei/CodeGuide#4-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1)
     - [4.1 设计模式](https://github.com/fuzhengwei/CodeGuide#41-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
@@ -278,6 +278,10 @@
 ## 4. 面向对象
 
 ### 4.1 设计模式 - 👉[**在线阅读**](https://bugstack.cn/md/develop/design-pattern/2020-05-20-%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8A%E5%AE%9E%E6%88%98%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E3%80%8B.html)
+
+- 介绍
+
+    - [《重学Java设计模式》开始在B站录视频了！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/design-pattern/2022-03-12-%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8FB%E7%AB%99%E8%A7%86%E9%A2%91.md)
 
 - 创建型模式
 
