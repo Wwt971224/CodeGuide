@@ -339,63 +339,71 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '💯实战项目',
-                        items: [
-                            {
-                                text: 'IM Netty 仿PC端微信',
-                                link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
-                            },
-                            {
-                                text: 'SpringBoot 中间件设计和开发',
-                                link: '/md/project/springboot-middleware/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md'
-                            },
-                            {
-                                text: 'Lottery 分布式抽奖系统',
-                                link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
-                            }
-                        ]
-                    },
-                    {
                         text: '部署',
                         link: '/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md'
                     },
                     {
-                        text: '📚PDF',
+                        text: '🔥项目课程',
                         items: [
                             {
-                                text: '出版图书', items: [
+                                text: '🌍知识星球', items: [
                                     {
-                                        text: '《重学Java设计模式》',
-                                        link: '/md/knowledge/book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md'
+                                        text: '码农会锁：小傅哥的私有技术朋友圈',
+                                        link: '/md/project/group/zsxq.md'
                                     }
                                 ]
                             },
                             {
-                                text: '电子书籍', items: [
+                                text: '💯实战项目', items: [
+                                    {
+                                        text: 'IM Netty 仿PC端微信',
+                                        link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
+                                    },
+                                    {
+                                        text: 'SpringBoot 中间件设计和开发',
+                                        link: '/md/project/springboot-middleware/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md'
+                                    },
+                                    {
+                                        text: 'Lottery 分布式抽奖系统',
+                                        link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '©️出版图书', items: [
+                                    {
+                                        text: '《重学Java设计模式》',
+                                        link: '/md/project/book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '📚PDF', items: [
                                     {
                                         text: 'Java 面经手册',
-                                        link: '/md/knowledge/pdf/2021-01-26-Java面经手册PDF下载.md'
+                                        link: '/md/project/pdf/2021-01-26-Java面经手册PDF下载.md'
                                     },
                                     {
                                         text: '手撸 Spring',
-                                        link: '/md/knowledge/pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md'
+                                        link: '/md/project/pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md'
                                     },
                                     {
                                         text: '重学Java设计模式',
-                                        link: '/md/knowledge/pdf/2020-07-12-重学 Java 设计模式.md'
+                                        link: '/md/project/pdf/2020-07-12-重学 Java 设计模式.md'
                                     },
                                     {
                                         text: '字节码编程',
-                                        link: '/md/knowledge/pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md'
+                                        link: '/md/project/pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md'
                                     },
                                     {
                                         text: 'IDEA Plugin 开发手册',
-                                        link: '/md/knowledge/pdf/2022-01-23-IDEA Plugin 开发手册.md'
+                                        link: '/md/project/pdf/2022-01-23-IDEA Plugin 开发手册.md'
                                     }
                                 ]
                             }
                         ]
                     },
+
                     {
                         text: '关于',
                         items: [
@@ -403,6 +411,10 @@ module.exports = {
                             {text: '关于学习', link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'},
                             {text: '关于职场', link: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md'}
                         ]
+                    },
+                    {
+                        text: 'B站',
+                        link: 'https://space.bilibili.com/15637440'
                     },
                     {
                         text: 'Github',
@@ -425,10 +437,12 @@ module.exports = {
                     "/md/assembly/middleware/": genBarAssembly(),
                     "/md/assembly/idea-plugin/": genBarAssemblyIDEAPlugin(),
                     "/md/netty/": genBarNetty(),
-                    "/md/knowledge/": genBarKnowledge(),
                     "/md/bytecode/asm-document/": genBarBytecode(),
                     "/md/bytecode/agent/": genBarBytecodeAgent(),
                     "/md/bytecode/": genBarBytecodeAsmJavassistByteBuddy(),
+                    "/md/project/group/": getBarZSXQ(),
+                    "/md/project/pdf/": getBarPDF(),
+                    "/md/project/book/": getBarBook(),
                     "/md/project/im/": getBarProjectIM(),
                     "/md/project/springboot-middleware/": getBarProjectSpringBootMiddleware(),
                     "/md/project/lottery/": getBarProjectLottery(),
@@ -588,7 +602,17 @@ function genBarSpringDevelopMybatis() {
             sidebarDepth: 0,
             children: [
                 "2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md",
-                "2202-03-27-第2章：创建简单的映射器代理工厂.md",
+                "2022-03-27-第2章：创建简单的映射器代理工厂.md",
+                "2022-04-04-第3章：实现映射器的注册和使用.md",
+                "2022-04-09-第4章：XML的解析和注册使用.md",
+                "2022-04-17-第5章：数据源的解析、创建和使用.md",
+                "2022-04-23-第6章：数据源池化技术实现.md",
+                "2022-04-28-第7章：SQL执行器的定义和实现.md",
+                "2022-05-03-第8章：把反射用到出神入化.md",
+                "2022-05-18-第9章：细化XML语句构建器，完善静态SQL解析.md",
+                "2022-05-26-第10章：使用策略模式，调用参数处理器.md",
+                "2022-06-02-第11章：流程解耦，封装结果集处理器.md",
+                "2022-06-10-第12章：完善ORM框架，增删改查操作.md",
             ]
         }
     ]
@@ -819,6 +843,7 @@ function genBarDevelopStandard() {
                 "2021-09-27-p3c 插件，是怎么检查出你那屎山的代码？.md",
                 "2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md",
                 "2022-03-06-ApiPost.md",
+                "2022-05-15-你说写代码，最常用的3个设计模式是啥？.md",
             ]
         }
     ]
@@ -953,40 +978,6 @@ function genBarNetty() {
                 "source-code/2019-09-13-netty案例，netty4.1源码分析篇四《ByteBuf的数据结构在使用方式中的剖析》.md",
                 "source-code/2019-09-14-netty案例，netty4.1源码分析篇五《一行简单的writeAndFlush都做了哪些事》.md",
                 "source-code/2019-09-15-netty案例，netty4.1源码分析篇六《Netty异步架构监听类Promise源码分析》.md",
-            ]
-        }
-    ]
-}
-
-// knowledge
-function genBarKnowledge() {
-    return [
-        {
-            title: "介绍",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "knowledge.md",
-            ]
-        },
-        {
-            title: "我的图书",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md",
-            ]
-        },
-        {
-            title: "PDF",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
-                "pdf/2020-07-12-重学 Java 设计模式.md",
-                "pdf/2021-01-26-Java面经手册PDF下载.md",
-                "pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
-                "pdf/2022-01-23-IDEA Plugin 开发手册.md",
             ]
         }
     ]
@@ -1157,6 +1148,49 @@ function genBarBytecode() {
             ]
         }
     ];
+}
+
+function getBarZSXQ() {
+    return [
+        {
+            title: "知识星球：码农会锁",
+            collapsable: false,
+            sidebarDepth: 3,
+            children: [
+                "zsxq.md",
+            ]
+        }
+    ]
+}
+
+function getBarPDF() {
+    return [
+        {
+            title: "PDF",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-01-26-Java面经手册PDF下载.md",
+                "2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
+                "2020-07-12-重学 Java 设计模式.md",
+                "2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
+                "2022-01-23-IDEA Plugin 开发手册.md",
+            ]
+        }
+    ]
+}
+
+function getBarBook() {
+    return [
+        {
+            title: "出版图书",
+            collapsable: false,
+            sidebarDepth: 3,
+            children: [
+                "2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md",
+            ]
+        }
+    ]
 }
 
 // project im
@@ -1404,6 +1438,7 @@ function genBarAbout() {
                 "me/2021-10-24-炸！1024，小傅哥的博客升级啦，文章开源、支持PR，冲哇！.md",
                 "me/2021-11-14-CodeGuide开源仓库.md",
                 "me/2022-01-27-2021年，小傅哥の年终总结！.md",
+                "me/2022-05-22-copyright-violation.md",
             ]
         },
         {
@@ -1421,7 +1456,8 @@ function genBarAbout() {
                 "study/2021-01-17-数学，离一个程序员有多近？.md",
                 "study/2021-05-09-大学毕业要写多少行代码，才能不用花钱培训就找到一份开发工作？.md",
                 "study/2021-09-09-2021版，开发者学习路线图分享.md",
-                "study/2022-02-07-你上车，我就把你带成卷王！.md"
+                "study/2022-02-07-你上车，我就把你带成卷王！.md",
+                "study/zsxq.md",
             ]
         },
         {
@@ -1436,6 +1472,7 @@ function genBarAbout() {
                 "job/2020-12-20-工作3年，看啥资料能月薪30K？.md",
                 "job/2021-02-24-半年筛选了400+份简历，告诉你怎么写会被撩.md",
                 "job/2021-12-02-刚提测就改需求，我是渣男吗.md",
+                "job/2022-04-30-面试字节，小傅哥写了一份硬核简历！.md",
             ]
         }
     ];
