@@ -248,18 +248,46 @@
 
 ### 3.2 Mybatis 手撸专栏  - 👉[**在线阅读**](https://bugstack.cn/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)
 
-- [第1章：开篇介绍，我要带你撸 Mybatis 啦！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.md)
-- [第2章：创建简单的映射器代理工厂](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-03-27-%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E5%88%9B%E5%BB%BA%E7%AE%80%E5%8D%95%E7%9A%84%E6%98%A0%E5%B0%84%E5%99%A8%E4%BB%A3%E7%90%86%E5%B7%A5%E5%8E%82.md)
-- [第3章：实现映射器的注册和使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-04-%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E5%AE%9E%E7%8E%B0%E6%98%A0%E5%B0%84%E5%99%A8%E7%9A%84%E6%B3%A8%E5%86%8C%E5%92%8C%E4%BD%BF%E7%94%A8.md)
-- [第4章：Mapper XML的解析和注册使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-09-%E7%AC%AC4%E7%AB%A0%EF%BC%9AXML%E7%9A%84%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8.md)
-- [第5章：数据源的解析、创建和使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-09-%E7%AC%AC4%E7%AB%A0%EF%BC%9AXML%E7%9A%84%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8.md)
-- [第6章：数据源池化技术实现](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-17-%E7%AC%AC5%E7%AB%A0%EF%BC%9A%E6%95%B0%E6%8D%AE%E6%BA%90%E7%9A%84%E8%A7%A3%E6%9E%90%E3%80%81%E5%88%9B%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8.md)
-- [第7章：SQL执行器的定义和实现](https://bugstack.cn/md/spring/develop-mybatis/2022-04-28-%E7%AC%AC7%E7%AB%A0%EF%BC%9ASQL%E6%89%A7%E8%A1%8C%E5%99%A8%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E5%AE%9E%E7%8E%B0.html)
-- [第8章：把反射用到出神入化](https://bugstack.cn/md/spring/develop-mybatis/2022-05-03-%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E6%8A%8A%E5%8F%8D%E5%B0%84%E7%94%A8%E5%88%B0%E5%87%BA%E7%A5%9E%E5%85%A5%E5%8C%96.html)
-- [第9章：细化XML语句构建器，完善静态SQL解析](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-05-18-%E7%AC%AC9%E7%AB%A0%EF%BC%9A%E7%BB%86%E5%8C%96XML%E8%AF%AD%E5%8F%A5%E6%9E%84%E5%BB%BA%E5%99%A8%EF%BC%8C%E5%AE%8C%E5%96%84%E9%9D%99%E6%80%81SQL%E8%A7%A3%E6%9E%90.md)
-- [第10章：使用策略模式，调用参数处理器](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-05-26-%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E4%BD%BF%E7%94%A8%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%EF%BC%8C%E8%B0%83%E7%94%A8%E5%8F%82%E6%95%B0%E5%A4%84%E7%90%86%E5%99%A8.md)
-- [第11章：流程解耦，封装结果集处理器](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-02-%E7%AC%AC11%E7%AB%A0%EF%BC%9A%E6%B5%81%E7%A8%8B%E8%A7%A3%E8%80%A6%EF%BC%8C%E5%B0%81%E8%A3%85%E7%BB%93%E6%9E%9C%E9%9B%86%E5%A4%84%E7%90%86%E5%99%A8.md)
-- [第12章：完善ORM框架，增删改查操作](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-10-%E7%AC%AC12%E7%AB%A0%EF%BC%9A%E5%AE%8C%E5%96%84ORM%E6%A1%86%E6%9E%B6%EF%BC%8C%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5%E6%93%8D%E4%BD%9C.md)
+- 介绍
+
+    - [【难度☆☆☆☆☆】第01章：开篇介绍，我要带你撸 Mybatis 啦！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.md)
+    
+- 第 1 部分 - 基础框架
+
+    - [【难度★★☆☆☆】第02章：创建简单的映射器代理工厂](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-03-27-%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E5%88%9B%E5%BB%BA%E7%AE%80%E5%8D%95%E7%9A%84%E6%98%A0%E5%B0%84%E5%99%A8%E4%BB%A3%E7%90%86%E5%B7%A5%E5%8E%82.md)
+    - [【难度★★☆☆☆】第03章：实现映射器的注册和使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-04-%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E5%AE%9E%E7%8E%B0%E6%98%A0%E5%B0%84%E5%99%A8%E7%9A%84%E6%B3%A8%E5%86%8C%E5%92%8C%E4%BD%BF%E7%94%A8.md)
+    - [【难度★★★☆☆】第04章：Mapper XML的解析和注册使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-09-%E7%AC%AC4%E7%AB%A0%EF%BC%9AXML%E7%9A%84%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8.md)
+
+- 第 2 部分 -  模块服务
+
+    - [【难度★★★☆☆】第05章：数据源的解析、创建和使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-09-%E7%AC%AC4%E7%AB%A0%EF%BC%9AXML%E7%9A%84%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8.md)
+    - [【难度★★★★☆】第06章：数据源池化技术实现](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-17-%E7%AC%AC5%E7%AB%A0%EF%BC%9A%E6%95%B0%E6%8D%AE%E6%BA%90%E7%9A%84%E8%A7%A3%E6%9E%90%E3%80%81%E5%88%9B%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8.md)
+    - [【难度★★★☆☆】第07章：SQL执行器的定义和实现](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-28-%E7%AC%AC7%E7%AB%A0%EF%BC%9ASQL%E6%89%A7%E8%A1%8C%E5%99%A8%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E5%AE%9E%E7%8E%B0.md)
+    - [【难度★★★★★】第08章：把反射用到出神入化](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-05-03-%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E6%8A%8A%E5%8F%8D%E5%B0%84%E7%94%A8%E5%88%B0%E5%87%BA%E7%A5%9E%E5%85%A5%E5%8C%96.md)
+
+- 第 3 部分 -  串联流程
+
+    - [【难度★★★★☆】第09章：细化XML语句构建器，完善静态SQL解析](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-05-18-%E7%AC%AC9%E7%AB%A0%EF%BC%9A%E7%BB%86%E5%8C%96XML%E8%AF%AD%E5%8F%A5%E6%9E%84%E5%BB%BA%E5%99%A8%EF%BC%8C%E5%AE%8C%E5%96%84%E9%9D%99%E6%80%81SQL%E8%A7%A3%E6%9E%90.md)
+    - [【难度★★★★☆】第10章：使用策略模式，调用参数处理器](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-05-26-%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E4%BD%BF%E7%94%A8%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%EF%BC%8C%E8%B0%83%E7%94%A8%E5%8F%82%E6%95%B0%E5%A4%84%E7%90%86%E5%99%A8.md)
+    - [【难度★★★☆☆】第11章：流程解耦，封装结果集处理器](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-02-%E7%AC%AC11%E7%AB%A0%EF%BC%9A%E6%B5%81%E7%A8%8B%E8%A7%A3%E8%80%A6%EF%BC%8C%E5%B0%81%E8%A3%85%E7%BB%93%E6%9E%9C%E9%9B%86%E5%A4%84%E7%90%86%E5%99%A8.md)
+    - [【难度★★★☆☆】第12章：完善ORM框架，增删改查操作](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-10-%E7%AC%AC12%E7%AB%A0%EF%BC%9A%E5%AE%8C%E5%96%84ORM%E6%A1%86%E6%9E%B6%EF%BC%8C%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5%E6%93%8D%E4%BD%9C.md)
+
+
+- 第 4 部分 -  扩展功能
+
+    - [【难度★★★☆☆】第13章：通过注解配置执行SQL语句](https://articles.zsxq.com/id_cushlx5xx5wj.html)
+    - [【难度★★★☆☆】第14章：解析和使用ResultMap映射参数配置](https://articles.zsxq.com/id_lszxhhridkrl.html)
+    - [【难度★★★☆☆】第15章：返回Insert操作自增索引值](https://articles.zsxq.com/id_gwfa0x8nciwn.html)
+    - [【难度★★★☆☆】第16章：解析含标签的动态SQL语句](https://articles.zsxq.com/id_1rzspttev8ls.html) 
+    - [【难度★★★★☆】第17章：Plugin 插件扩展](https://articles.zsxq.com/id_k7havmcaefdk.html)
+    - [【难度★★★★☆】第18章：一级缓存](https://articles.zsxq.com/id_8d0o471we1ig.html)
+    - [【难度★★★★☆】第19章：二级缓存](https://articles.zsxq.com/id_gviwjzv5h4wp.html) 
+    - [【难度★★★★☆】第20章：【作业】整合Spring](https://articles.zsxq.com/id_2pwtkmjixi73.html)
+    
+- 终章
+
+    - [【番外】第21章：小册完结，一次源码深度学习旅行！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-07-06-%E7%AC%AC20%E7%AB%A0%EF%BC%9A%E6%95%B4%E5%90%88Spring.md)
+    - [【番外】第22章：Mybatis 框架源码10种设计模式分析](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-07-15-%E7%AC%AC22%E7%AB%A0%EF%BC%9AMybatis%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
 
 ### 3.2 Spring Cloud - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 
@@ -289,6 +317,7 @@
 
 - [基于jdbc实现一个Demo版的Mybatis用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/source-code/2020-01-13-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5D%E5%9F%BA%E4%BA%8Ejdbc%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AADemo%E7%89%88%E7%9A%84Mybatis.md)
 - [手写mybait-spring核心功能，干货好文一次学会工厂bean、类代理、bean注册的使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/source-code/2020-01-20-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5D%E6%89%8B%E5%86%99mybait-spring%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%EF%BC%8C%E5%B9%B2%E8%B4%A7%E5%A5%BD%E6%96%87%E4%B8%80%E6%AC%A1%E5%AD%A6%E4%BC%9A%E5%B7%A5%E5%8E%82bean%E3%80%81%E7%B1%BB%E4%BB%A3%E7%90%86%E3%80%81bean%E6%B3%A8%E5%86%8C%E7%9A%84%E4%BD%BF%E7%94%A8.md)
+- [为什么 insert 配置 "SELECT LAST_INSERT_ID()" 返回个0呢？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/source-code/2022-06-24-%E4%B8%BA%E4%BB%80%E4%B9%88insert%E9%85%8D%E7%BD%AESELECT%20LAST_INSERT_ID()%E8%BF%94%E5%9B%9E%E4%B8%AA0%E5%91%A2.md)
 
 </details>
 

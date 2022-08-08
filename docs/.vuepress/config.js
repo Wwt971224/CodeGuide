@@ -185,6 +185,19 @@ module.exports = {
                         text: '导读', link: '/md/other/guide-to-reading.md'
                     },
                     {
+                        text: '算法',
+                        items: [
+                            {
+                                text: '数据结构',
+                                link: '/md/algorithm/data-structures/2022-07-22-linked-list.md'
+                            },
+                            {
+                                text: '算法主题',
+                                link: '/md/algorithm/logic/2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md'
+                            }
+                        ]
+                    },
+                    {
                         text: 'Java',
                         items: [
                             {
@@ -417,12 +430,17 @@ module.exports = {
                         link: 'https://space.bilibili.com/15637440'
                     },
                     {
-                        text: 'Github',
-                        link: 'https://github.com/fuzhengwei/CodeGuide'
+                        text: '源码仓库',
+                        items: [
+                            {text: '开源项目 - Github', link: 'https://github.com/fuzhengwei/CodeGuide'},
+                            {text: '付费项目 - Gitcode', link: 'https://gitcode.net/KnowledgePlanet/doc/-/wikis/home'},
+                        ]
                     }
                 ],
                 sidebar: {
                     "/md/other/": genBarOther(),
+                    "/md/algorithm/data-structures/": genAlgorithmDataStructures(),
+                    "/md/algorithm/logic/": genAlgorithmLogic(),
                     "/md/java/interview/": genBarJavaInterview(),
                     "/md/java/develop-jvm/": genBarJavaDevelopJvm(),
                     "/md/java/core/": genBarJavaCore(),
@@ -452,6 +470,37 @@ module.exports = {
         }
     }
 };
+
+// algorithm/data-structures
+function genAlgorithmDataStructures() {
+    return [
+        {
+            title: "数据结构",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-07-22-linked-list.md",
+                "2022-07-30-array-list.md",
+                "2022-08-06-queue.md",
+            ]
+        }
+    ]
+}
+
+// algorithm/logic
+function genAlgorithmLogic() {
+    return [
+        {
+            title: "算法主题",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md",
+                "2020-03-18-无重复字符的最长子串.md",
+            ]
+        }
+    ]
+}
 
 // java-interview
 function genBarJavaInterview() {
@@ -597,22 +646,67 @@ function genBarOther() {
 function genBarSpringDevelopMybatis() {
     return [
         {
-            title: "《手撸 Mybatis》",
+            title: "介绍",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md",
+            ]
+        },
+        {
+            title: "第 1 部分 - 基础框架",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-03-27-第2章：创建简单的映射器代理工厂.md",
                 "2022-04-04-第3章：实现映射器的注册和使用.md",
                 "2022-04-09-第4章：XML的解析和注册使用.md",
+            ]
+        },
+        {
+            title: "第 2 部分 - 模块服务",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-04-17-第5章：数据源的解析、创建和使用.md",
                 "2022-04-23-第6章：数据源池化技术实现.md",
                 "2022-04-28-第7章：SQL执行器的定义和实现.md",
                 "2022-05-03-第8章：把反射用到出神入化.md",
+            ]
+        },
+        {
+            title: "第 3 部分 - 串联流程",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-05-18-第9章：细化XML语句构建器，完善静态SQL解析.md",
                 "2022-05-26-第10章：使用策略模式，调用参数处理器.md",
                 "2022-06-02-第11章：流程解耦，封装结果集处理器.md",
                 "2022-06-10-第12章：完善ORM框架，增删改查操作.md",
+            ]
+        },
+        {
+            title: "第 4 部分 - 完善实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-06-14-第13章：通过注解配置执行SQL语句.md",
+                "2022-06-21-第14章：解析和使用ResultMap映射参数配置.md",
+                "2022-06-25-第15章：返回Insert操作自增索引值.md",
+                "2022-06-28-第16章：解析含标签的动态SQL语句.md",
+                "2022-07-01-第17章：Plugin插件功能实现.md",
+                "2022-07-04-第18章：一级缓存.md",
+                "2022-07-05-第19章：二级缓存.md",
+                "2022-07-06-第20章：整合Spring.md",
+            ]
+        },
+        {
+            title: "终章",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-07-07-第21章：完结.md",
+                "2022-07-15-第22章：Mybatis设计模式.md",
             ]
         }
     ]
@@ -622,11 +716,18 @@ function genBarSpringDevelopMybatis() {
 function genBarSpringDevelopSpring() {
     return [
         {
-            title: "容器篇：IOC",
+            title: "介绍",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.md",
+            ]
+        },
+        {
+            title: "容器篇：IOC",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2021-05-20-第2章：小试牛刀，实现一个简单的Bean容器.md",
                 "2021-05-23-第3章：初显身手，运用设计模式，实现 Bean 的定义、注册、获取.md",
                 "2021-05-30-第4章：崭露头角，基于Cglib实现含构造函数的类实例化策略.md",
@@ -698,7 +799,8 @@ function genBarSpringSourceCode() {
                 "2020-01-01-[源码解析]Spring定时任务Quartz执行全过程源码解读.md",
                 "2020-01-08-[源码分析]像盗墓一样分析Spring是怎么初始化xml并注册bean的.md",
                 "2020-01-13-[源码分析]基于jdbc实现一个Demo版的Mybatis.md",
-                "2020-01-20-[源码分析]手写mybait-spring核心功能，干货好文一次学会工厂bean、类代理、bean注册的使用.md"
+                "2020-01-20-[源码分析]手写mybait-spring核心功能，干货好文一次学会工厂bean、类代理、bean注册的使用.md",
+                "2022-06-24-为什么insert配置SELECT LAST_INSERT_ID()返回个0呢.md",
             ]
         }
     ]
@@ -853,7 +955,15 @@ function genBarDevelopStandard() {
 function genBarAssembly() {
     return [
         {
-            title: "SpringBoot 中间件开发",
+            title: "中间件小册介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md",
+            ]
+        },
+        {
+            title: "第 0 部分 - 尝鲜",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -862,8 +972,70 @@ function genBarAssembly() {
                 "2019-12-08-开发基于SpringBoot的分布式任务中间件DcsSchedule.md",
                 "2021-08-19-基于Hash散列，数据库路由组件设计.md"
             ]
+        },
+        {
+            title: "第 1 部分 - 开篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 1 章 什么是中间件.md",
+                "第 2 章 【重要】小册学习介绍&源码授权.md",
+            ]
+        },
+        {
+            title: "第 2 部分 - 服务治理",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 3 章 服务治理，统一白名单控制.md",
+                "第 4 章 服务治理，超时熔断.md",
+                "第 5 章 服务治理，调用限流.md",
+                "第 6 章 服务治理，自定义拦截方法.md",
+            ]
+        },
+        {
+            title: "第 3 部分 - ORM 框架",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 7 章 ORM 框架实现.md",
+                "第 8 章 ORM 框架与 Spring 集合.md",
+                "第 9 章 结合 SpringBoot 开发 ORM Starter.md",
+                "第 10 章 ES-JDBC 查询引擎.md",
+                "第 11 章 ES SpringBoot Starter 服务框架.md",
+            ]
+        },
+        {
+            title: "第 4 部分 - 分布式组件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 12 章 RPC 框架实现.md",
+                "第 13 章 数据库路由组件.md",
+                "第 14 章 Redis 简化使用封装.md",
+                "第 15 章 分布式任务调度.md",
+            ]
+        },
+        {
+            title: "第 5 部分 - 字节码应用",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 16 章 非入侵监控设计，ASM 字节码插桩.md",
+                "第 17 章 非入侵监控设计，JVMTI 定位代码.md",
+                "第 18 章 基于IDEA插件开发和字节码插桩技术，采集研发过程中代码执行信息.md",
+            ]
+        },
+        {
+            title: "第 6 部分",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 19 章 后记.md",
+            ]
         }
     ]
+
 }
 
 // Assembly idea-plugin
@@ -1457,7 +1629,8 @@ function genBarAbout() {
                 "study/2021-05-09-大学毕业要写多少行代码，才能不用花钱培训就找到一份开发工作？.md",
                 "study/2021-09-09-2021版，开发者学习路线图分享.md",
                 "study/2022-02-07-你上车，我就把你带成卷王！.md",
-                "study/zsxq.md",
+                "study/2022-06-16-敲了几万行源码后，我给Mybatis画了张“全地图”.md",
+                "study/2022-06-19-OnJava.md",
             ]
         },
         {
