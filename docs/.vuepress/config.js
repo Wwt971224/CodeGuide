@@ -47,7 +47,7 @@ module.exports = {
         ["meta", {"http-equiv": "Expires", content: "0"}],
         ["meta", {
             name: "keywords",
-            content: "bugstack 虫洞栈, 重学Java设计模式, 字节码编程, 中间件, Spring, Java基础, 面经手册"
+            content: "bugstack 虫洞栈, DDD抽奖系统，数据结构，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，面试题，API网关，SpringBoot Stater"
         }],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
         ['script',
@@ -70,12 +70,12 @@ module.exports = {
                 async: 'async',
                 src: '/js/fingerprint2.min.js',
             }],
-        ['script',
-            {
-                charset: 'utf-8',
-                async: 'async',
-                src: 'https://s9.cnzz.com/z_stat.php?id=1278232949&web_id=1278232949',
-            }],
+        // ['script',
+        //     {
+        //         charset: 'utf-8',
+        //         async: 'async',
+        //         src: 'https://s9.cnzz.com/z_stat.php?id=1278232949&web_id=1278232949',
+        //     }],
         // 添加百度统计
         ["script", {},
             `
@@ -185,15 +185,22 @@ module.exports = {
                         text: '导读', link: '/md/other/guide-to-reading.md'
                     },
                     {
+                        text: '路书', link: '/md/other/road-map.md'
+                    },
+                    {
                         text: '算法',
                         items: [
                             {
                                 text: '数据结构',
-                                link: '/md/algorithm/data-structures/2022-07-22-linked-list.md'
+                                link: '/md/algorithm/data-structures/data-structures.md'
                             },
                             {
                                 text: '算法主题',
-                                link: '/md/algorithm/logic/2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md'
+                                link: '/md/algorithm/logic/math/math.md'
+                            },
+                            {
+                                text: '机器学习',
+                                link: '/md/algorithm/model/2023-02-12-chat-gpt.md'
                             }
                         ]
                     },
@@ -291,8 +298,12 @@ module.exports = {
                                 link: '/md/assembly/middleware/2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md'
                             },
                             {
-                                text: 'IDEA-Plugin',
+                                text: 'IDEA Plugin 开发手册',
                                 link: '/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md'
+                            },
+                            {
+                                text: 'API网关：中间件设计和实践',
+                                link: '/md/assembly/api-gateway/2022-08-12-开篇：如果让我设计一套，TPS百万级API网关.md'
                             }
                         ]
                     },
@@ -356,67 +367,95 @@ module.exports = {
                         link: '/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md'
                     },
                     {
-                        text: '🔥项目课程',
+                        text: '💯实战项目',
                         items: [
                             {
-                                text: '🌍知识星球', items: [
+                                text: '业务类型', items: [
                                     {
-                                        text: '码农会锁：小傅哥的私有技术朋友圈',
-                                        link: '/md/project/group/zsxq.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '💯实战项目', items: [
+                                        text: 'Lottery 分布式抽奖系统',
+                                        link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
+                                    },
                                     {
                                         text: 'IM Netty 仿PC端微信',
                                         link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
                                     },
                                     {
+                                        text: 'ChatGPT AI 问答助手',
+                                        link: '/md/project/chatbot-api/chatbot-api.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '组件类型', items: [
+                                    {
                                         text: 'SpringBoot 中间件设计和开发',
-                                        link: '/md/project/springboot-middleware/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md'
+                                        link: 'https://bugstack.cn/md/assembly/middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html'
                                     },
                                     {
-                                        text: 'Lottery 分布式抽奖系统',
-                                        link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
-                                    }
+                                        text: 'API网关：中间件设计和实践',
+                                        link: 'https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html'
+                                    },
                                 ]
                             },
-                            {
-                                text: '©️出版图书', items: [
-                                    {
-                                        text: '《重学Java设计模式》',
-                                        link: '/md/project/book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '📚PDF', items: [
-                                    {
-                                        text: 'Java 面经手册',
-                                        link: '/md/project/pdf/2021-01-26-Java面经手册PDF下载.md'
-                                    },
-                                    {
-                                        text: '手撸 Spring',
-                                        link: '/md/project/pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md'
-                                    },
-                                    {
-                                        text: '重学Java设计模式',
-                                        link: '/md/project/pdf/2020-07-12-重学 Java 设计模式.md'
-                                    },
-                                    {
-                                        text: '字节码编程',
-                                        link: '/md/project/pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md'
-                                    },
-                                    {
-                                        text: 'IDEA Plugin 开发手册',
-                                        link: '/md/project/pdf/2022-01-23-IDEA Plugin 开发手册.md'
-                                    }
-                                ]
-                            }
                         ]
                     },
-
+                    {
+                        text: '🌍知识星球',
+                        link: '/md/zsxq/introduce.md'
+                    },
+                    {
+                        text: '📝产品',
+                        items: [
+                            {
+                                text: '出版物', items: [
+                                    {
+                                        text: '2021年出版《重学Java设计模式》',
+                                        link: '/md/product/book/design-pattern.md'
+                                    },
+                                    {
+                                        text: '2022年出版《手写Spring：渐进式源码实践》',
+                                        link: '/md/product/book/spring.md'
+                                    },
+                                ]
+                            },
+                            {
+                                text: 'PDF —— 加入星球免费获取', items: [
+                                    {
+                                        text: '免费《字节码编程手册》(密码：Rlxbh1ia)',
+                                        link: 'http://pan.bugstack.cn/?dl=05b281eff1476e2c22eb5114ced0dc4d'
+                                    },
+                                    {
+                                        text: '免费《重学Java设计模式》——旧版PDF(密码：FWchEAF6)',
+                                        link: 'http://pan.bugstack.cn/?dl=431e114a26f810655d29b6dea54a680f'
+                                    },
+                                    {
+                                        text: '免费《倚天村 • 图解数据结构》(密码：0SjbAlPa)',
+                                        link: 'http://pan.bugstack.cn/?dl=dbed614f318bf9fc9d3b034ba9502a3c'
+                                    },
+                                    {
+                                        text: '免费《手写 Spring》(密码：uke3Eauf)',
+                                        link: 'http://pan.bugstack.cn/?dl=dff9e469d550cadba830ab748322e54e'
+                                    },
+                                    {
+                                        text: '付费《Java 面经手册》',
+                                        link: 'https://download.csdn.net/download/Yao__Shun__Yu/14932325'
+                                    },
+                                    {
+                                        text: '付费《IDEA Plugin 开发手册》',
+                                        link: 'https://download.csdn.net/download/Yao__Shun__Yu/77484299'
+                                    },
+                                ]
+                            },
+                            {
+                                text: '插件', items: [
+                                    {
+                                        text: '💱 IDEA Plugin vo2dto —— 对象转换插件',
+                                        link: '/md/product/idea-plugin/vo2dto.md'
+                                    },
+                                ]
+                            },
+                        ]
+                    },
                     {
                         text: '关于',
                         items: [
@@ -432,8 +471,8 @@ module.exports = {
                     {
                         text: '源码仓库',
                         items: [
-                            {text: '开源项目 - Github', link: 'https://github.com/fuzhengwei/CodeGuide'},
-                            {text: '付费项目 - Gitcode', link: 'https://gitcode.net/KnowledgePlanet/doc/-/wikis/home'},
+                            {text: '开源项目 - Github', link: 'https://github.com/fuzhengwei'},
+                            {text: '付费项目 - Gitcode', link: 'https://gitcode.net/KnowledgePlanet'},
                         ]
                     }
                 ],
@@ -441,6 +480,7 @@ module.exports = {
                     "/md/other/": genBarOther(),
                     "/md/algorithm/data-structures/": genAlgorithmDataStructures(),
                     "/md/algorithm/logic/": genAlgorithmLogic(),
+                    "/md/algorithm/model/": genAlgorithmModel(),
                     "/md/java/interview/": genBarJavaInterview(),
                     "/md/java/develop-jvm/": genBarJavaDevelopJvm(),
                     "/md/java/core/": genBarJavaCore(),
@@ -454,16 +494,17 @@ module.exports = {
                     "/md/devops/": genBarDevOPS(),
                     "/md/assembly/middleware/": genBarAssembly(),
                     "/md/assembly/idea-plugin/": genBarAssemblyIDEAPlugin(),
+                    "/md/assembly/api-gateway/": genApiGateway(),
                     "/md/netty/": genBarNetty(),
                     "/md/bytecode/asm-document/": genBarBytecode(),
                     "/md/bytecode/agent/": genBarBytecodeAgent(),
                     "/md/bytecode/": genBarBytecodeAsmJavassistByteBuddy(),
-                    "/md/project/group/": getBarZSXQ(),
-                    "/md/project/pdf/": getBarPDF(),
-                    "/md/project/book/": getBarBook(),
-                    "/md/project/im/": getBarProjectIM(),
                     "/md/project/springboot-middleware/": getBarProjectSpringBootMiddleware(),
                     "/md/project/lottery/": getBarProjectLottery(),
+                    "/md/project/im/": getBarProjectIM(),
+                    "/md/project/chatbot-api/": getBarProjectChatBotApi(),
+                    "/md/zsxq/": getBarZSXQ(),
+                    "/md/product/": getBarProduct(),
                     "/md/about/": genBarAbout()
                 }
             }
@@ -471,17 +512,85 @@ module.exports = {
     }
 };
 
+// other
+function genBarOther() {
+    return [
+        {
+            title: "学习指引",
+            collapsable: true,
+            sidebarDepth: 2,
+            children: [
+                "road-map.md",
+                "guide-to-reading.md"
+            ]
+        }
+    ]
+}
+
+function genBarGuide() {
+    return [
+        {
+            title: "编程路书",
+            collapsable: false,
+            sidebarDepth: 2,
+            children: [
+                "road-map.md"
+            ]
+        }
+    ]
+}
+
 // algorithm/data-structures
 function genAlgorithmDataStructures() {
     return [
         {
-            title: "数据结构",
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "data-structures.md",
+            ]
+        },
+        {
+            title: "线性数据结构",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2022-07-22-linked-list.md",
                 "2022-07-30-array-list.md",
                 "2022-08-06-queue.md",
+                "2022-08-17-stack.md",
+                "2022-08-27-hash-table.md",
+            ]
+        },
+        {
+            title: "树形数据结构",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-09-03-heap.md",
+                "2022-09-14-trie.md",
+                "2022-09-18-tree.md",
+                "2022-09-26-tree-avl.md",
+                "2022-10-01-tree-2-3.md",
+                "2022-10-02-tree-red-black.md",
+                "2022-10-04-disjoint-set.md",
+            ]
+        },
+        {
+            title: "图论",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-10-03-graph.md",
+            ]
+        },
+        {
+            title: "其他",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-10-05-bloom-filter.md",
             ]
         }
     ]
@@ -491,12 +600,68 @@ function genAlgorithmDataStructures() {
 function genAlgorithmLogic() {
     return [
         {
-            title: "算法主题",
+            title: "介绍",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md",
-                "2020-03-18-无重复字符的最长子串.md",
+                "math/math.md",
+            ]
+        },
+        {
+            title: "数学",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "math/2022-10-30-bits.md",
+                "math/2022-10-30-factorial.md",
+                "math/2022-11-05-fibonacci.md",
+                "math/2022-11-20-primality.md",
+                "math/2022-11-28-euclidean.md",
+                "math/2022-12-04-least-common-multiple.md",
+                "math/2022-12-11-sieve-of-eratosthenes.md",
+                "math/2022-12-12-is-power-of-two.md",
+                "math/2022-12-18-pascal-triangle.md",
+                "math/2022-12-23-radian.md",
+                "math/2023-01-08-fast-powering.md",
+                "math/2023-01-08-integer-partition.md",
+                "math/2023-01-09-liu-hui.md",
+                "math/2023-01-09-fourier-transform.md",
+            ]
+        },
+        {
+            title: "集合",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "sets/2023-02-09-cartesian-product.md",
+                "sets/2023-02-10-fisher-yates.md",
+                "sets/2023-02-11-power-set.md",
+                "sets/2023-02-12-permutations.md",
+                "sets/2023-02-13-combinations.md",
+            ]
+        },
+        {
+            title: "刷题",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "leetcode/2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md",
+                "leetcode/2020-03-18-无重复字符的最长子串.md",
+            ]
+        }
+    ]
+}
+
+// algorithm/model
+function genAlgorithmModel(){
+    return [
+        {
+            title: "机器学习",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-12-chat-gpt.md",
+                "2023-02-18-gpt2-chitchat.md",
             ]
         }
     ]
@@ -623,20 +788,6 @@ function genBarJavaCore() {
                 "2020-05-05-汉字不能编程？别闹了，只是看着有点豪横！容易被开除！.md",
                 "2020-11-22-鹿鼎记 · 韦小宝，丽春院、天地会、入皇宫等五个场景，搭配不同剧情讲解多线程和锁，真香！.md",
                 "2021-04-21-一个Bug，让我发现了 Java 界的AJ锥！.md"
-            ]
-        }
-    ]
-}
-
-// other
-function genBarOther() {
-    return [
-        {
-            title: "阅读指南",
-            collapsable: false,
-            sidebarDepth: 2,
-            children: [
-                "guide-to-reading.md"
             ]
         }
     ]
@@ -1084,6 +1235,87 @@ function genBarAssemblyIDEAPlugin() {
     ];
 }
 
+// api-gateway
+function genApiGateway() {
+    return [
+        {
+            title: "API网关小册介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-08-12-开篇：如果让我设计一套，TPS百万级API网关.md",
+            ]
+        },
+        {
+            title: "第 1 部分 - 通信组件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-08-13-第1章：HTTP请求会话协议处理.md",
+                "2022-08-20-第2章：代理RPC泛化调用.md",
+                "2022-08-27-第3章：分治处理会话流程.md",
+                "2022-09-04-第4章：将连接抽象为数据源.md",
+                "2022-09-10-第5章：HTTP请求参数解析.md",
+                "2022-09-17-第6章：引入执行器封装服务调用.md",
+                "2022-09-25-第7章：权限认证组件.md",
+                "2022-10-15-第8章：网关会话鉴权处理.md",
+                "2022-12-04-第16章：网络通信配置提取.md",
+            ]
+        },
+        {
+            title: "第 2 部分 - 注册中心",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-10-22-第9章：网关注册中心服务初始创建.md",
+                "2022-10-29-第10章：网关注册中心库表结构设计.md",
+                "2022-11-06-第11章：网关注册算力节点领域服务实现.md",
+                "2022-11-13-第12章：网关注册服务接口领域服务实现.md",
+                "2022-11-26-第14章：网关映射聚合信息查询实现.md",
+            ]
+        },
+        {
+            title: "第 3 部分 - 服务发现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-11-20-第13章：服务发现组件搭建和注册网关连接.md",
+                "2022-11-26-第15章：服务配置拉取和组件使用验证.md",
+                "2022-12-04-第17章：核心通信组件管理和处理服务映射.md",
+                "2022-12-10-第18章：容器关闭监听和异常管理.md",
+                "2023-01-01-第22章：订阅服务注册消息驱动网关映射.md",
+                "2023-02-11-第25章：网关Nginx负载模型配置.md",
+            ]
+        },
+        {
+            title: "第 4 部分 - 镜像文件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-12-10-第19章：网关引擎打包镜像部署.md",
+            ]
+        },
+        {
+            title: "第 5 部分 - 服务注册",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-12-17-第20章：服务注册组件搭建采集接口信息.md",
+                "2022-12-24-第21章：应用服务接口注册到注册中心.md",
+            ]
+        },
+        {
+            title: "第 6 部分 - 运营后台",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-15-第23章：网关运营管理后台框架搭建.md",
+                "2023-01-26-第24章：前后端分离应用的跨域接口调用.md",
+            ]
+        }
+    ];
+}
+
 // netty 4.x
 function genBarNetty() {
     return [
@@ -1325,43 +1557,108 @@ function genBarBytecode() {
 function getBarZSXQ() {
     return [
         {
-            title: "知识星球：码农会锁",
+            title: "星球介绍",
             collapsable: false,
-            sidebarDepth: 3,
+            sidebarDepth: 1,
             children: [
-                "zsxq.md",
+                "introduce.md",
             ]
-        }
-    ]
-}
-
-function getBarPDF() {
-    return [
+        },
         {
-            title: "PDF",
+            title: "星球资料",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2021-01-26-Java面经手册PDF下载.md",
-                "2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
-                "2020-07-12-重学 Java 设计模式.md",
-                "2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
-                "2022-01-23-IDEA Plugin 开发手册.md",
+                "material/guide.md",
+                "material/architecture_design.md",
+                "material/interview.md",
+                "material/study-experience.md",
+                "material/exam.md",
+                "material/openai.md",
+            ]
+        },
+        {
+            title: "实战项目",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "project/lottery.md",
+                "project/im.md",
+                "project/api-gateway.md",
+                "project/bug-code.md",
+            ]
+        },
+        {
+            title: "技术小册",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "booklet/java-interview.md",
+                "booklet/idea-plugin.md",
+                "booklet/bytecode.md",
+                "booklet/data-structures.md",
+            ]
+        },
+        {
+            title: "手撕源码",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "source-code/develop-spring.md",
+                "source-code/develop-mybatis.md",
+            ]
+        },
+        {
+            title: "关于星主",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "about/xiaofuge.md",
+            ]
+        },
+        {
+            title: "加入星球",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "other/join.md",
             ]
         }
     ]
 }
 
-function getBarBook() {
+function getBarProduct() {
     return [
         {
-            title: "出版图书",
+            title: "出版物",
             collapsable: false,
-            sidebarDepth: 3,
+            sidebarDepth: 0,
             children: [
-                "2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md",
+                "book/design-pattern.md",
+                "book/spring.md",
             ]
-        }
+        },
+        {
+            title: "电子书",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
+                "pdf/2020-07-12-重学 Java 设计模式.md",
+                "pdf/2020-10-04-《Java面经手册》PDF数据结构篇， 肝完出炉了！来吧，这本书帮你拿最贵的offer！.md",
+                "pdf/2021-01-26-Java面经手册PDF下载.md",
+                "pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
+                "pdf/2022-01-23-IDEA Plugin 开发手册.md",
+            ]
+        },
+        {
+            title: "插件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "idea-plugin/vo2dto.md",
+            ]
+        },
     ]
 }
 
@@ -1422,6 +1719,33 @@ function getBarProjectIM() {
                 "3.9：解答篇-聊天表情发送功能实现.md",
             ]
         }
+    ];
+}
+
+function getBarProjectChatBotApi() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "chatbot-api.md",
+            ]
+        },
+        {
+            title: "课程",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第1节：工程创建和仓库使用.md",
+                "第2节：创建知识星球，爬取接口信息.md",
+                "第3节：知识星球接口领域服务开发.md",
+                "第4节：对接ChatGPT，调用接口.md",
+                "第5节：整合知识星球与ChatGPT，完成自动化回答.md",
+                "第6节：部署服务到 Docker 容器.md",
+                "第7节：多组任务服务配置.md",
+            ]
+        },
     ];
 }
 
@@ -1595,13 +1919,15 @@ function genBarAbout() {
             children: [
                 "me/about-me.md",
                 "me/2020-03-31-大学四年到毕业工作5年的学习路线资源汇总.md",
+                "me/2020-12-27-2020总结，作为技术号主的一年！.md",
+                "me/2022-01-27-2021年，小傅哥の年终总结！.md",
+                "me/2023-01-02-2022年，小傅哥の年终总结.md",
                 "me/2020-07-25-12天，这本《重学Java设计模式》PDF书籍下载量9k，新增粉丝1400人，Github上全球推荐榜.md",
                 "me/2020-08-25-13年毕业，用两年时间从外包走进互联网大厂.md",
                 "me/2020-10-09-让人怪不好意思的，粉丝破万，用了1年！.md",
                 "me/2020-10-25-今天你写博客了吗.md",
                 "me/2020-11-01-刚毕业不久，接私活赚了2万块！.md",
                 "me/2020-11-29-北漂码农的我，把在大城市过成了屯子一样舒服，哈哈哈哈哈！.md",
-                "me/2020-12-27-2020总结，作为技术号主的一年！.md",
                 "me/2021-01-31-这一年，想踏码进货一样！.md",
                 "me/2021-05-26-小傅哥，一个有副业的码农.md",
                 "me/2021-06-20-我，有10万+粉丝啦！.md",
@@ -1609,7 +1935,6 @@ function genBarAbout() {
                 "me/2021-09-05-我在CSDN赚了1.2万.md",
                 "me/2021-10-24-炸！1024，小傅哥的博客升级啦，文章开源、支持PR，冲哇！.md",
                 "me/2021-11-14-CodeGuide开源仓库.md",
-                "me/2022-01-27-2021年，小傅哥の年终总结！.md",
                 "me/2022-05-22-copyright-violation.md",
             ]
         },
@@ -1631,6 +1956,8 @@ function genBarAbout() {
                 "study/2022-02-07-你上车，我就把你带成卷王！.md",
                 "study/2022-06-16-敲了几万行源码后，我给Mybatis画了张“全地图”.md",
                 "study/2022-06-19-OnJava.md",
+                "study/2022-10-15-面试官：深度不够，建议回去深挖.md",
+                "study/2022-12-25-我把ChatGPT拉到微信群里了.md",
             ]
         },
         {
@@ -1646,6 +1973,7 @@ function genBarAbout() {
                 "job/2021-02-24-半年筛选了400+份简历，告诉你怎么写会被撩.md",
                 "job/2021-12-02-刚提测就改需求，我是渣男吗.md",
                 "job/2022-04-30-面试字节，小傅哥写了一份硬核简历！.md",
+                "job/2023-02-04-项目这么问，把你水分挤干.md",
             ]
         }
     ];

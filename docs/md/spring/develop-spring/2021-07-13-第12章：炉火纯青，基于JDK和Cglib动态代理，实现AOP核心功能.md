@@ -582,3 +582,10 @@ Process finished with exit code 0
 - 从本文对 Proxy#newProxyInstance、MethodInterceptor#invoke，的使用验证切面核心原理以及再把功能拆解到 Spring 框架实现中，可以看到一个貌似复杂的技术其实核心内容往往没有太多，但因为需要为了满足后续更多的扩展就需要进行职责解耦和包装，通过这样设计模式的使用，以此让调用方能更加简化，自身也可以不断按需扩展。
 - AOP 的功能实现目前还没有与 Spring 结合，只是对切面技术的一个具体实现，你可以先学习到如何处理代理对象、过滤方法、拦截方法，以及使用 Cglib 和 JDK 代理的区别，其实这与的技术不只是在 Spring 框架中有所体现，在其他各类需要减少人工硬编码的场景下，都会用到。*比如RPC、Mybatis、MQ、分布式任务*
 - 一些核心技术的使用上，都是具有很强的关联性的，它们也不是孤立存在的。而这个能把整个技术栈串联起来的过程，需要你来大量的学习、积累、由点到面的铺设，才能在一个知识点的学习拓展到一个知识面和知识体系的建设。
+
+## 七、优秀作业
+
+- [jdk和cglib动态代理 @Chin](https://t.zsxq.com/06feIU3fe)
+- [在创建对象之前,需要前判断对象是否需要代理 @Liuliuliu](https://t.zsxq.com/09CbW8E6P)
+- [前期在Spring当中涉及到了JDK和Cglib的动态代理，今天详细地进行了一个学习 @在九月](https://t.zsxq.com/0aPKwaowf)
+- [把 AOP 扩展到 Bean 的生命周期里 @lucien](https://t.zsxq.com/0berIUtme)

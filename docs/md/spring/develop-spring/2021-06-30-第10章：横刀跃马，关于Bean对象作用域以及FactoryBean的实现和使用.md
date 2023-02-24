@@ -559,3 +559,16 @@ Process finished with exit code 0
 - 在 Spring 框架整个开发的过程中，前期的各个功能接口类扩展的像膨胀了似的，但到后期在完善功能时，就没有那么难了，反而深入理解后会觉得功能的补充，都比较简单。只需要再所遇领域范围内进行扩展相应的服务实现即可。
 - 当你仔细阅读完关于 FactoryBean 的实现以及测试过程的使用，以后再需要使用 FactoryBean 开发相应的组件时候，一定会非常清楚它是如何创建自己的复杂 Bean 对象以及在什么时候初始化和调用的。遇到问题也可以快速的排查、定位和解决。
 - 如果你在学习的过程中感觉这些类、接口、实现、继承，穿梭的很复杂，一时半会脑子还反应不过来。那么你最好的方式是动手去画画这些类关系图，梳理下实现的结构，看看每个类在干什么。*看只能是知道，动手才能学会！*
+
+## 七、优秀作业
+
+- [单例判断以及通过用户创建的FactoryBean实现复杂Bean对象的创建 @Ray](https://t.zsxq.com/057IyZj2r)
+- [Bean 对象作用域范围全貌梳理 @W](https://t.zsxq.com/05eiIMFMj)
+- [另开一中额外的prototype类型的bean，并进行特殊处理 @Chin](https://t.zsxq.com/05MFubAA6)
+- [起初对于 FactoryBean 模块其实理解的不是很充分，联想到 mybatis 的使用确实稍微能 get 到其设计的意义所在 @Weirdo](https://t.zsxq.com/067ufmeaE)
+- [对象作用域和BeanFactory @liuc](https://t.zsxq.com/07cc83Mh2)
+- [AOP（面向切面编程）是指通过预编译的方式和运行期间动态代理实现程序功能的统一维护 @liuc](https://t.zsxq.com/0828L68ac)
+- [不仅仅只由 Spring 本身类创建 Bean，仿照 Mybatis 框架，通过接口定义 @水中捞月](https://t.zsxq.com/08Hv720j8)
+- [ApplicationEventMulticaster关键类，主要是通过该类发布的事件 @Liuliuliu](https://t.zsxq.com/09Mibk2Uj)
+- [事件监听器，照字面意思，这个是一个机制 @lucien](https://t.zsxq.com/0buWRXssk)
+- [Spring IoC 容器通过反射或字节码增强的方式实例化 Bean @爱奋斗的小鲨鱼](https://t.zsxq.com/0blxKjTp3)

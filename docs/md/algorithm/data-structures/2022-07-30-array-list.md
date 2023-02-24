@@ -1,9 +1,9 @@
 ---
-title: 第2章：数组
+title: 数组 Array
 lock: need
 ---
 
-# 《Java 数据结构和算法》第2章：数组
+# 数据结构：数组 Array
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -15,7 +15,7 @@ lock: need
 
 `数组是数据结构还是数据类型？`
 
-数组只是个名称，它可以描述一组操作，也可以命名这组操作。数组的数据操作，是通过 idx->val 的方式来处理。它不是具体要求内存上要存储着连续的数据才叫数据，而是说，通过连续的索引 idx，也可以线性访问相邻的数据。
+数组只是个名称，它可以描述一组操作，也可以命名这组操作。数组的数据操作，是通过 idx->val 的方式来处理。它不是具体要求内存上要存储着连续的数据才叫数组，而是说，通过连续的索引 idx，也可以线性访问相邻的数据。
 
 那么当你定义了数据的存储方式，也就定义了数据结构。所以它也是被归类为数据结构。
 
@@ -23,7 +23,9 @@ lock: need
 
 数组（Array）是一种线性表数据结构。它用一组连续的内存空间，来存储一组具有相同类型数据的集合。
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220730-01.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-01.png?raw=true" width="500px">
+</div>
 
 数组的特点：
 1. 数组是相同数据类型的元素集合（int 不能存放 double）
@@ -36,9 +38,11 @@ lock: need
 
 ### 2. 二维数组
 
-![二维数组](https://bugstack.cn/images/article/algorithm/algorithms-220730-02.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-02.png?raw=true" width="500px">
+</div>
 
-二维以及多维数组，在开发场景中使用到的到不是不多，不过在一些算法逻辑，数学计算中到是可以使用。
+二维以及多维数组，在开发场景中使用到的到是不多，不过在一些算法逻辑，数学计算中到是可以使用。
 
 ## 三、实现数组列表
 
@@ -47,7 +51,7 @@ lock: need
 那么本章节我们就借着数组结构的学习，实现一个简单的 ArrayList，让使用 Java 的读者既能了解学习数据结构，也能了解到 Java 源码实现。
 
 - 源码地址：[https://github.com/fuzhengwei/java-algorithms](https://github.com/fuzhengwei/java-algorithms) - `Java 算法与数据结构`
-- 本章源码：[https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/array/ArrayList.java](https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/array/ArrayList.java)
+- 本章源码：[https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/array_list](https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/array_list)
 
 ### 1. 基本设计
 
@@ -74,7 +78,9 @@ transient Object[] elementData;
 
 ### 2. 添加元素
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220730-03.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-03.png?raw=true" width="500px">
+</div>
 
 ```java
 public boolean add(E e) {
@@ -109,7 +115,9 @@ public boolean add(E e) {
 
 ArrayList 的重点离不开对 System.arraycopy 的使用，它是一个本地方法，可以让你从原数组的特定位置，迁移到新数组的指定位置和迁移数量。如图 2-5 所示，数据迁移 *测试代码在 java-algorithms*
 
-![图 2-5](https://bugstack.cn/images/article/algorithm/algorithms-220730-05.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-05.png?raw=true" width="500px">
+</div>
 
 **删除元素**
 
@@ -175,7 +183,9 @@ public void test_array_list() {
 
 **测试结果**
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220730-06.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-06.png?raw=true" width="500px">
+</div>
 
 ```java
 ArrayList{elementData=[01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, null, null, null], size=12}
@@ -194,3 +204,9 @@ Process finished with exit code 0
 3. ArrayList 中默认的初始化长度是多少？
 4. ArrayList 中扩容的范围是多大一次？
 5. ArrayList 是如何完成扩容的，System.arraycopy 各个入参的作用是什么？
+
+## 七、读者作业
+
+- [https://t.zsxq.com/05vVjaa6i @天心](https://t.zsxq.com/05vVjaa6i)
+- [https://t.zsxq.com/05ba2fu3N @Chin](https://t.zsxq.com/05ba2fu3N)
+- [https://t.zsxq.com/07lqmMocZ @顾君谟](https://t.zsxq.com/07lqmMocZ)
